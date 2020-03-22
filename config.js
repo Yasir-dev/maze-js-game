@@ -1,12 +1,15 @@
+// canvas size constants
 const HORIZONTAL_CELLS = 8;
 const VERTICAL_CELLS = 6;
 const CANVAS_WIDTH = window.innerWidth;
 const CANVAS_HEIGHT = window.innerHeight;
 
+// x and y axis units
 const UNIT_LENGTH_X_AXIS = CANVAS_WIDTH / HORIZONTAL_CELLS;
 const UNIT_LENGTH_Y_AXIS = CANVAS_HEIGHT / VERTICAL_CELLS;
 
-KEY_CODE_W_KEY = 87;
-KEY_CODE_Y_KEY = 89;
-KEY_CODE_D_KEY = 68;
-KEY_CODE_A_KEY = 65;
+// ball movement key codes
+const KEY_CODE_W_KEY = 87;
+const KEY_CODE_Y_KEY = 89;
+const KEY_CODE_D_KEY = 68;
+const KEY_CODE_A_KEY = 65;
