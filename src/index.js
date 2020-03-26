@@ -202,7 +202,7 @@ document.addEventListener('keydown', event => {
         case KEY_CODE_W_KEY:// move up
             Body.setVelocity(ball, { x, y: y - 5});
             break;
-        case KEY_CODE_Y_KEY: // move down
+        case KEY_CODE_S_KEY: // move down
             Body.setVelocity(ball, { x, y: y + 5});
             break;
         case KEY_CODE_D_KEY: // move right
